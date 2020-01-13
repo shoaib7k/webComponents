@@ -1,0 +1,42 @@
+﻿<head>
+  <link rel="stylesheet" href="address.css">
+  
+</head>
+
+ 
+<section class="content">
+  <h1 class="content__heading">Send Me a Message</h1>
+  <p class="content__lede">Use this handy contact form to get in touch with me.</p>
+  <form class="content__form contact-form">
+    
+    <div class="address-form__input-group">
+      <label class="address-form__label" for="plz">PLZ</label>
+      <input class="address-form__input address-form__input--number" id="plz" name="plz" type="number"/>
+    </div>
+    <div class="address-form__input-group">
+      <label class="address-form__label" for="stadt">Stadt</label>
+      <input class="address-form__input address-form__input--text" id="stadt" name="stadt" type="text" />
+    </div>
+    <div class="address-form__input-group">
+      <label class="address-form__label" for="strasse">Straße</label>
+      <input class="address-form__input address-form__input--text" id="strasse" name="strasse" >
+    </div>
+    <div class="address-form__input-group">
+      <label class="address-form__label" for="houseno">Hausnummeer</label>
+      <input class="address-form__input contact-form__input--textarea" id="houseno" name="houseno" >
+    </div>
+    <div class="address-form__input-group">
+        <label class="address-form__label" for="land">Land</label>
+        <input class="address-form__input address-form__input--textarea" id="land" name="land" value="Deutschland" >
+      
+    </div>
+    <button class="address-form__button" type="submit">info!</button>
+  </form>
+</section>
+<div class="results">
+  <h2 class="results__heading">Form Data</h2>
+  <pre class="results__display-wrapper"><code class="results__display"></code></pre>
+</div>
+<script src="address.js"></script>
+
+
